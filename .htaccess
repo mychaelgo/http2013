@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteRule ^http index.php?p=http 
+RewriteRule ^pbc index.php?p=pbc 
+RewriteRule ^jacket index.php?p=jacket 
+RewriteRule ^spah index.php?p=spah

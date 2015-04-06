@@ -1,0 +1,61 @@
+.devmenu2{
+	width: 100%;
+	overflow:hidden;
+}
+
+.devmenu2 ul{
+	margin: 0;
+	padding: 0;
+	font: bold 20px Verdana;
+	list-style-type: none;
+	text-align: center;
+}
+
+.devmenu2 li{
+	display: inline;
+	margin: 0;
+}
+
+.devmenu2 li a{
+	display:inline-block;
+	text-align:center;
+	text-decoration: none;
+	color: white;
+	
+	margin: 0;
+	margin-right:5px;
+	width:100px;
+	height:100px;
+	border-radius: 400px; /*change here to create big/small round borders*/
+	-moz-border-radius: 400px;
+	-webkit-border-radius: 400px;
+}
+
+.devmenu2 li a.http{
+	background:#6c18e8;/*change here for another menu color*/
+}
+
+.devmenu2 li a.pbc{
+	background:#ff0f7e;/*change here for another menu color*/
+}
+
+.devmenu2 li a.jacket{
+	background:#00c1ff;/*change here for another menu color*/
+}
+
+.devmenu2 li a.spah{
+	background:#a8a7a7;/*change here for another menu color*/
+}
+.devmenu2 a span{
+	position:relative;
+	top:40%;
+}
+
+.devmenu2 li a:visited{
+color: white;
+}
+
+/*
+.devmenu2 a:hover{
+background: #a71b15;
+}*/
